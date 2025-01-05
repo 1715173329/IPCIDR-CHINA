@@ -1,0 +1,21 @@
+{
+  "input": [
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "cn",
+        "uri": "./ip.txt"
+      }
+    }
+  ],
+  "output": [
+    {
+      "type": "singboxSRS",
+      "action": "output",
+      "args": {
+        "outputDir": "./rule-set"
+      }
+    }
+  ]
+}
